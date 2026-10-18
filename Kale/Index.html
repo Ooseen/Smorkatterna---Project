@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hemsida</title>
+
+        <style>
+            .body {
+                display: grid;
+                grid-template-columns: 0.5fr auto auto;
+                grid-template-areas: "header header header"
+                                    "sidebar main main"
+                                     "sidebar main main"
+                                     "footer footer footer";
+                grid-gap: 15px;
+                background-color: antiquewhite;
+
+            }
+
+            .header {
+                grid-area: header;
+                text-align: center;
+            }
+
+            .main {
+                grid-area: main;
+                background: burlywood;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: auto auto auto auto;
+                grid-gap: 10px;
+            }
+
+            .sidebar {
+                grid-area: sidebar;
+                background: bisque;
+            }
+
+            .footer {
+                grid-area: footer;
+            }
+        </style>
+    </head>
+    <body class="body">
+        <header class="header">
+            <h1>Smörkatterna - Shop</h1>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <p>Glungus - Cool
+                    <br>
+                    Pris: 299kr
+                </p>
+                <img src="https://imgs.search.brave.com/cmBAU4oQ765BVuP4cLsRoXGRaiXZU8oYmX0EYSyA1DA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYm9yZWRwYW5k/YS5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNS8w/NS9DYXQtUGhvdG9n/cmFwaHktNjgyNDUz/NDcwOTk0MV9fNzAw/LmpwZw" height="100">
+                
+                <p>Glungus - Arg
+                    <br>
+                    Pris: 499kr
+                </p>
+                
+                <img src="https://imgs.search.brave.com/cmBAU4oQ765BVuP4cLsRoXGRaiXZU8oYmX0EYSyA1DA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYm9yZWRwYW5k/YS5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNS8w/NS9DYXQtUGhvdG9n/cmFwaHktNjgyNDUz/NDcwOTk0MV9fNzAw/LmpwZw" height="100">
+                <p>Glungus - Glad
+                    <br>
+                    Pris: 799kr
+                </p>
+                
+                <img src="https://imgs.search.brave.com/cmBAU4oQ765BVuP4cLsRoXGRaiXZU8oYmX0EYSyA1DA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYm9yZWRwYW5k/YS5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNS8w/NS9DYXQtUGhvdG9n/cmFwaHktNjgyNDUz/NDcwOTk0MV9fNzAw/LmpwZw" height="100">
+                <p>Glungus - Rik
+                    <br>
+                    Pris: 10 099kr
+                </p>
+                
+                <img src="https://imgs.search.brave.com/cmBAU4oQ765BVuP4cLsRoXGRaiXZU8oYmX0EYSyA1DA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYm9yZWRwYW5k/YS5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNS8w/NS9DYXQtUGhvdG9n/cmFwaHktNjgyNDUz/NDcwOTk0MV9fNzAw/LmpwZw" height="100">
+            </div>
+        </main>
+
+        <sidebar class="sidebar">
+            <button onclick="window.location.href='Index2.html'">Info</button>
+            <br>
+            <br>
+            <button onclick="window.location.href='Index3.html'">Kontakt</button>
+            <br>
+            <br>
+            <button onclick="window.location.href='Index4.html'">Taco Shop</button>
+            <br>
+            <br>
+            <button onclick="window.location.href='Index5.html'">Rika katter</button>
+            
+        </sidebar>
+
+        <footer class="footer">
+            <p>
+                [Chilibankis & Smörtacos AB]
+
+Storgatan 12, 111 22 Smörparadis
+<br>
+Telefon: Vi vet inte
+<br>
+E-post: Posta med E?
+<br>
+Org.nr: kattkattkattkattkatt
+                <br>
+                <br>
+                © 2026 [Chilibankis & Smörkatterna / Onkilonki]. Alla rättigheter förbehållna.
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Tacos!!</Title>
+
+        <style>
+            .body {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-areas: "head head head"
+                                    "main main main"
+                                    "main main main";
+                background: antiquewhite;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: auto auto auto auto;
+                background: burlywood;
+                grid-gap: 5px;
+            }
+
+            .head {
+                grid-area: head;
+            }
+
+            .main {
+                grid-area: main;
+            }
+
+            .button1 {
+                padding: 50px;
+                font-size: 20px;
+                background: green;
+            }
+
+
+        </style>
+    </head>
+    
+    <body class="body">
+        <head class="head">
+        <h1 class="heading">Tacokatterna - Shop</h1>
+       </head>
+       
+       <main class="main">
+        <div class="container">
+            <p>
+                Chilibankis 
+                <br>
+                (tacomode)
+                <br>
+                Pris - 899kr
+                
+            </p>
+            <img src="Tacokatt.jpg" height="100" width="100">
+
+            <p>
+                Chilibankis 
+                <br>
+                (taco frenzy!)
+                <br>
+                Pris - 1099kr
+                
+            </p>
+            <img src="Tacokattfrenzy.jpg" height="100" width="100">
+            <p>
+                Chilibankis 
+                <br>
+                (Mexicoparty)
+                <br>
+                Pris - 2889kr
+                
+            </p>
+            <img src="Tacokattparty.jpg" height="100" width="100">
+        </div>
+        <br>
+        <br>
+        <button class="button1" onclick="window.location.href='Index.html'">Återvänd</button>
+        </main>
+    </body>
+</html>
