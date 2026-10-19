@@ -7,7 +7,7 @@
             .body {
                 display: grid;
                 grid-template-columns: auto auto auto;
-                grid-template-areas: "head head head"
+                grid-template-areas: "header header header"
                                     "main main main"
                                     "main main main";
                 background: antiquewhite;
@@ -21,8 +21,9 @@
                 grid-gap: 5px;
             }
 
-            .head {
-                grid-area: head;
+            .header {
+                grid-area: header;
+                text-align: center;
             }
 
             .main {
@@ -38,18 +39,29 @@
                 background-color: lightgreen;
             }
 
+           .p1:hover {
+            color: gold;
+           }
 
+            .p2:hover {
+            color: gold;
+           }
+
+            .p3:hover {
+            color: gold;
+           }
         </style>
     </head>
     
     <body class="body">
-        <head class="head">
-        <h1 class="heading">Tacokatterna - Shop</h1>
-       </head>
        
+        <header class="header">
+            <h1>Tacokatt - Shop</h1>
+        </header>
+
        <main class="main">
         <div class="container">
-            <p>
+            <p class="p1">
                 Chilibankis 
                 <br>
                 (tacomode)
@@ -59,7 +71,7 @@
             </p>
             <img src="Tacokatt.jpg" height="100" width="100">
 
-            <p>
+            <p class="p2">
                 Chilibankis 
                 <br>
                 (taco frenzy!)
@@ -68,7 +80,7 @@
                 
             </p>
             <img src="Tacokattfrenzy.jpg" height="100" width="100">
-            <p>
+            <p class="p3">
                 Chilibankis 
                 <br>
                 (Mexicoparty)
