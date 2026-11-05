@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registrering - Människor
+        </title>
+
+        <style>
+            .subbi {
+                color: gold;
+                background: crimson;
+            }
+
+            .container {
+                background: greenyellow;
+            }
+
+            .b1 {
+                padding: 20px;
+                font-size: large;
+            }
+        </style>
+    </head>
+
+    <body class="container">
+        <h1>
+            Registrera dig hos oss
+            <img src="https://imgs.search.brave.com/Y41lm1rnLPqmcn30pvgjf8K70O6GoAyAlZWz_9p5cJE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/MlVfbFc1OEFKNmtB/QUFBTS9mYXQtY2F0/LWN1dGUtY2F0Lmdp/Zg.gif" height="30" width="30">
+        </h1>
+
+        <main class="main">
+            <form action="Index.html">
+
+                <fieldset>
+
+                    <legend>Uppgifter</legend>
+
+                <label for="fnamn">Förnamn</label>
+                <input type="text" id="fnamn" name="fnamn">
+
+                <br>
+                <br>
+
+                <label for="lnamn">Efternamn</label>
+                <input type="text" id="lnamn" name="lnamn">
+
+                <br>
+                <br>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <br>
+                <br>
+                <img src="https://imgs.search.brave.com/Y-ZCNkttqxZzcfdgnoOpBQcenDdQ_1j_SOgNfpHo52Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDc5/MTQ5MDkwL3Bob3Rv/L2ZhdC10YWJieS1j/YXQtaXMtbHlpbmct/YXQtdGhlLXdvb2Qt/Z3JvdW5kLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1IYnhT/aGt1eml1azctcUg5/NXI0ZlJUTXNJT3BL/OGR5YmNtaVJuNzhk/dEY0PQ" height="100" width="350">
+                
+                <br>
+                <br>
+
+                <label for="tnummer">Telefon</label>
+                <input type="text" id="tnummer" name="tnummer">
+                
+                <br>
+                <br>
+
+                <label for="barf">Födelsedag</label>
+                <input type="date" id="barf" name="barf">
+               
+                <p>Får vi kontakta dig genom denna informationen?</p>
+                <input type="radio" id="Ja" name="Consent" value="Ja">
+                <label for="Consent">Ja</label>
+                
+                <br>
+
+                <input type="radio" id="Nej" name="Consent" value="Nej">
+                <label for="Nej">Nej</label>
+
+                <br>
+                <br>
+
+                <input class="subbi" type="submit" value="Gå med!">
+           
+                </fieldset>
+            </form>
+
+
+            <p>Har du redan ett konto?</p>
+            <button class="b1" onclick="window.location.href='Login.html'">Login</button>
+        </main>
+    </body>
+</html>
