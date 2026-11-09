@@ -4,11 +4,83 @@
         <title>
             Medlemskap - Människor
         </title>
+
+        <style>
+            .body {
+                background: lightpink;
+                color: blueviolet;
+            }
+
+            .Rubrik {
+                text-align: center;
+            }
+
+            .subbi {
+                background: green;
+                padding: 20px;
+                font-size: large;
+            }
+        </style>
     </head>
 
     <body class="body">
-        <h1>
+        <h1 class="Rubrik">
             Logga in hos oss
         </h1>
+
+        <br>
+
+        <img src="https://i.pinimg.com/736x/94/b8/bf/94b8bf3d3a3aef457187a06d7094c5c8.jpg" height="100" width="200">
+
+        <p>
+            Logga in med dina inloggnings uppgifter nedanför.
+        </p>
+
+        <hr>
+
+        <form action="Index.html">
+            <fieldset>
+                <legend>Inloggning</legend>
+            <label for="fnamn">Fornamn</label>
+            <input type="text" id="fnamn" name="fnamn">
+
+            <br>
+            <br>
+
+            <label for="lnamn">Efternamn</label>
+            <input type="text" id="lnamn" name="lnamn">
+
+            <br>
+            <br>
+            <img src="https://i.pinimg.com/736x/2b/4e/8b/2b4e8b8f5a7f18597a45674a25850f82.jpg" height="100" width="300">
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <br>
+            <br>
+
+            <label for="telefon">Telefon</label>
+            <input type="text" id="telefon" name="telefon">
+
+            <br>
+            <br>
+
+            <label for="los">Losenord</label>
+            <input type="text" id="los" name="los">
+
+            <br>
+            <br>
+
+            <img src="https://i.pinimg.com/736x/ff/ad/d4/ffadd463cc454f7b1c475163b0f41dbd.jpg" height="200" width="300">
+            
+            <br>
+            <br>
+
+            <input class="subbi" type="submit" value="Logga in">
+        </fieldset>
+        </form>
     </body>
 </html>

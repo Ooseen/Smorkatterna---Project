@@ -20,23 +20,29 @@
                 font-size: large;
                 background: lightblue;
             }
+
+            .main {
+                text-align: center;
+                color: cadetblue;
+            }
         </style>
     </head>
 
     <body class="container">
-        <h1>
+        <main class="main">
+
+             <h1>
             Registrera dig hos oss
             <img src="https://imgs.search.brave.com/Y41lm1rnLPqmcn30pvgjf8K70O6GoAyAlZWz_9p5cJE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/MlVfbFc1OEFKNmtB/QUFBTS9mYXQtY2F0/LWN1dGUtY2F0Lmdp/Zg.gif" height="30" width="30">
         </h1>
 
-        <main class="main">
             <form action="Index.html">
 
                 <fieldset>
 
                     <legend>Uppgifter</legend>
 
-                <label for="fnamn">Förnamn</label>
+                <label for="fnamn">Fornamn</label>
                 <input type="text" id="fnamn" name="fnamn">
 
                 <br>
@@ -64,16 +70,16 @@
                 <br>
                 <br>
 
-                <label for="barf">Födelsedag</label>
+                <label for="barf">Fodelsedag</label>
                 <input type="date" id="barf" name="barf">
 
                 <br>
                 <br>
 
-                <label for="Los">Lösenord</label>
+                <label for="Los">Losenord</label>
                 <input type="text" id="Los" name="Los">
                
-                <p>Får vi kontakta dig genom denna informationen?</p>
+                <p>Far vi kontakta dig genom denna informationen?</p>
                 <input type="radio" id="Ja" name="Consent" value="Ja">
                 <label for="Consent">Ja</label>
                 
@@ -85,8 +91,29 @@
                 <br>
                 <br>
 
-                <input class="subbi" type="submit" value="Gå med!">
-           
+                <label for="katt">Hur många katter ska anfalla dig månadsmässigt?</label>
+
+                <select id="katt">
+                    <option value="30">30st</option>
+                    <option value="500">500st</option>
+                    <option value="1000">1000st</option>
+                    <option value="50000">50 000st</option>
+                </select>
+
+                <br>
+                <br>
+
+                <label for="extra">Något vi behöver veta om dig?</label>
+                <textarea rows="4" cols="50">
+
+                </textarea>
+
+                <input class="subbi" type="submit" value="Ga med!">
+
+                <br>
+                <br>
+
+                <img src="https://static2.klipy.com/ii/9294a2e836d178ddc22430dd7765727e/e3/64/zMZEZWBRV6drQ.gif" height="100" width="200">
                 </fieldset>
             </form>
 
